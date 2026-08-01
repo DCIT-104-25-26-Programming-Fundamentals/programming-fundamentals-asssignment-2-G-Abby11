@@ -22,6 +22,7 @@ void checkFibonacci(long long num) {
 
     long long prev = 0, curr = 1;
     
+    // Special case for 0 and 1
     if (num == 0 || num == 1) {
         cout << num << " is a Fibonacci number." << endl;
         return;
@@ -68,3 +69,4 @@ int main() {
 
     return 0;
 }
+
